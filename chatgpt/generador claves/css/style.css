@@ -1,0 +1,38 @@
+#board {
+  display: grid;
+  grid-template-columns: repeat(10, 40px);
+  grid-template-rows: repeat(10, 40px);
+  gap: 2px;
+  margin: 10px auto;
+}
+
+.cell {
+  background-color: gray;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.cell.mine {
+  background-color: red;
+  color: white;
+}
+
+.cell.flagged {
+  background-color: blue;
+  color: white;
+}
+
+.cell.revealed {
+  background-color: lightgray;
+}
+
+h1 {
+  text-align: center;
+}
+
+button {
+  display: block;
+  margin: 0 auto;
+}

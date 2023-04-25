@@ -1,0 +1,96 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.6f1 (338bb68529b2) revision 3378102'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19045.2846; Version 2009; 64bit' Language: 'es' Physical Memory: 16332 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+D:\Unity\2020.3.6f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/fer_p/OneDrive/Desktop/RTS3
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+51183
+Successfully changed project path to: C:/Users/fer_p/OneDrive/Desktop/RTS3
+C:/Users/fer_p/OneDrive/Desktop/RTS3
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 26.11 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.6f1 (338bb68529b2)
+[Subsystems] Discovering subsystems at path D:/Unity/2020.3.6f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/fer_p/OneDrive/Desktop/RTS3/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1660 SUPER (ID=0x21c4)
+    Vendor:   
+    VRAM:     5991 MB
+    Driver:   31.0.15.1694
+Initialize mono
+Mono path[0] = 'D:/Unity/2020.3.6f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Unity/2020.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'D:/Unity/2020.3.6f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56352
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Unity/2020.3.6f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: D:/Unity/2020.3.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001888 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 26.91 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.482 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.000870 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 27.75 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.904 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1279 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 75.4 MB.
+System memory in use after: 75.5 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1744.
+Total: 1.980000 ms (FindLiveObjects: 0.251500 ms CreateObjectMapping: 0.035400 ms MarkObjects: 1.536900 ms  DeleteObjects: 0.153600 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Resources/Prefabs/Units/TribuAraña/SpiderArcher.prefab
+  artifactKey: Guid(701b88a1c963670458b885935ac8eeb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/Units/TribuAraña/SpiderArcher.prefab using Guid(701b88a1c963670458b885935ac8eeb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4625cfb6faf3e19565f9b98a390b943') in 0.068035 seconds
+  Import took 0.071038 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 151.558931 seconds.
+  path: Assets/Resources/Prefabs/Units/TribuAraña/SpiderSpearMan.prefab
+  artifactKey: Guid(701b88a1c963670458b885935ac8eeb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/Units/TribuAraña/SpiderSpearMan.prefab using Guid(701b88a1c963670458b885935ac8eeb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b614444381843d4a4e5e0312c61885e') in 0.076467 seconds
+  Import took 0.079621 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 476.832497 seconds.
+  path: Assets/Resources/Scripts/Scripts/Units/Components/Weapon.cs
+  artifactKey: Guid(e9a607a8daf3b1e48aa3c6b16cbb106c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Scripts/Scripts/Units/Components/Weapon.cs using Guid(e9a607a8daf3b1e48aa3c6b16cbb106c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2a61fbb09e473c486efbee6a76607d2') in 0.028513 seconds
+  Import took 0.031467 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
