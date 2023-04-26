@@ -1,5 +1,0 @@
-sceneSetups:
-- path: "Assets/soldado-ara\xF1a.unity"
-  isLoaded: 1
-  isActive: 1
-  isSubScene: 0
