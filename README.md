@@ -45,8 +45,9 @@ http://github.com - automatic!
           
 ```javascript
 function soCoolJS(){
-    console.log("wtf");
+    console.log("wtf, put commas and everything exactly where they must be dumb!");
 }
+```
 
 - [x] this is a complete item
 - [ ] this is an incomplete item
