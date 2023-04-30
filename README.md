@@ -41,10 +41,11 @@ http://github.com - automatic!
 > This is for quotes            \*Literal escapes\*
 >Cool quotes
 
-"@ThisisforMention"             '''javascript
-                                function soCoolJS(){
-                                    console.log("wtf");
-                                }'''
+"@ThisisforMention"             
+'''javascript
+function soCoolJS(){
+console.log("wtf");
+}'''
 
 - [x] this is a complete item
 - [ ] this is an incomplete item
