@@ -1,4 +1,3 @@
-package main.java;
 import java.io.*;
 import java.util.Scanner;
 
@@ -28,7 +27,8 @@ public class FileManipulation {
             {
                 switch(choice)
                 {
-                    case 1: if(!file.exists()) // Creating a file in case it doesnt exists
+                    case 1: // =============================================================================  file.createNewFile()
+                            if(!file.exists()) // Creating a file in case it doesnt exists
                             {
                                 file.createNewFile();
                                 System.out.println("TestFile created!!!!");
@@ -39,10 +39,12 @@ public class FileManipulation {
                                 System.out.println("TestFile is already created");
                                 break;
                             }
-                    case 2: file.delete(); // Deleting the file
+                    case 2: // =============================================================================  file.delete()
+                            file.delete(); // Deleting the file
                             System.out.println("TestFile deleted!!!!");
                             break;
-                    case 3: if(origin.renameTo(destiny)) // Moving the file
+                    case 3: // =============================================================================  origin.renameTo(destiny)
+                            if(origin.renameTo(destiny)) // Moving the file
                             {
                                 System.out.println("File moved!!!");
                                 break;
@@ -52,7 +54,8 @@ public class FileManipulation {
                                 System.out.println("File couldn't be moved!!!");
                                 break;
                             }
-                    case 4:  if(destiny.renameTo(origin)) // Getting the file back to the same path
+                    case 4: // =============================================================================  destiny.renameTo(origin)
+                            if(destiny.renameTo(origin)) // Getting the file back to the same path
                             {
                                 System.out.println("File moved!!!");
                                 break;
@@ -62,7 +65,8 @@ public class FileManipulation {
                                 System.out.println("File couldn't be moved!!!");
                                 break;
                             }
-                    case 5: if(file.exists())
+                    case 5: // =============================================================================  file.exists(), FileOutputStream.write()
+                            if(file.exists())
                             {
                                 filePath = file.getAbsolutePath();
                                 FileOutputStream fos = new FileOutputStream(filePath);
@@ -83,7 +87,8 @@ public class FileManipulation {
                             }
 
 
-                    case 6: if(file.exists())
+                    case 6: // =============================================================================  file.exists(), FileInputStream.read()
+                            if(file.exists())
                             {
                                 filePath = file.getAbsolutePath();
                                 FileInputStream fis = new FileInputStream(filePath);
