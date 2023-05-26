@@ -7,30 +7,45 @@ public class Streams {
     File file = new File("TestStream.txt");
 
     // ========================= ByteBuffer ============================================
-    public void bufferByte()
-    {
+    public void bufferByte() throws IOException {
         int bufferSize = 4 * 1024;
-        BufferedInputStream bis;
-        BufferedOutputStream bos;
+        BufferedInputStream bis = null;
+        BufferedOutputStream bos = null;
         String message = "Hola Mundo!";
 
             try
             {
                 bos = new BufferedOutputStream(new FileOutputStream("src/test/java/BufferTest.bin"), bufferSize);
-                bos.write(message.getBytes());
-                bos.flush();
-                bos.close();
                 bis = new BufferedInputStream(new FileInputStream("src/test/java/BufferTest.bin"), bufferSize);
+
+                bos.write(message.getBytes(StandardCharsets.UTF_8));
+                bos.flush();
+
                 int info;
-                do
-                {
-                    info = bis.read();
+                info = bis.read();
+
+                while(info != -1){
                     System.out.print(((char) info));
-                }while(info != -1);
+                    info = bis.read();
+                }
                 System.out.println("");
-                bis.close();
+
             }
-            catch (IOException e) {e.printStackTrace();}
+            catch (IOException e)
+            {
+                e.printStackTrace();
+            }
+            finally
+            {
+                if(bos != null)
+                {
+                    bos.close();
+                }
+                if(bis != null)
+                {
+                    bis.close();
+                }
+            }
     }
     // ========================= CharBuffer ============================================
     public void bufferChar()

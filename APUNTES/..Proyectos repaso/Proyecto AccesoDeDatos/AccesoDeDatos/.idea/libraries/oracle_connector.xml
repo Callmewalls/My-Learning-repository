@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="oracle-connector">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/src/main/Connector/oracle-connector.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

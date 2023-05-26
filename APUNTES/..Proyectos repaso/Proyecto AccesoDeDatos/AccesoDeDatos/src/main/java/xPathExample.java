@@ -21,8 +21,6 @@ public class xPathExample {
             File file = new File("src/test/java/parsers.xml");
 
             DocumentBuilderFactory dbf = DocumentBuilderFactory.newInstance();
-            dbf.setValidating(true);
-            dbf.setIgnoringElementContentWhitespace(true);
 
             DocumentBuilder db = dbf.newDocumentBuilder();
             Document d = db.parse(file);
@@ -41,6 +39,12 @@ public class xPathExample {
                 if(n.getNodeType() == Node.ELEMENT_NODE)
                 {
                     Element el = (Element) n;
+                    System.out.println("Book id nº: " + el.getAttribute("id"));
+                    System.out.println("Title: " + el.getElementsByTagName("title").item(0).getTextContent());
+                    System.out.println("Author: " + el.getElementsByTagName("author").item(0).getTextContent());
+                    System.out.println("Genre: " + el.getElementsByTagName("genre").item(0).getTextContent());
+                    System.out.println("Publish date: " + el.getElementsByTagName("publish_date").item(0).getTextContent());
+                    System.out.println("Price: " + el.getElementsByTagName("price").item(0).getTextContent());
                 }
             }
         }
