@@ -1,0 +1,16 @@
+<hibernate-mapping>
+    <class name = "Customer" table = "CUSTOMER">
+        <meta attribute = "class-description">
+            This class contains the customer info.
+        </meta>
+
+        <id name="id" type="int" column="id">
+            <generator class="native"/>
+        </id>
+
+        <property name="first_name" column="first_name" type="string"/>
+        <property name="last_name" column="last_name" type="string"/>
+        <property name="first_name" column="first_name" type="string"/>
+
+    </class>
+</hibernate-mapping>

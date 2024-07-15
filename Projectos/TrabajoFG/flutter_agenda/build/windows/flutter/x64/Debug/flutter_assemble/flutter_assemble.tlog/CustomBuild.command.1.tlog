@@ -1,0 +1,28 @@
+^C:\USERS\FER_P\ONEDRIVE\DESKTOP\FERNANDO\INFORMATICA\TRABAJOFG\FLUTTER_AGENDA\BUILD\WINDOWS\CMAKEFILES\30F9A97460EC65ED4D29BAE75DB66D8D\FLUTTER_WINDOWS.DLL.RULE
+setlocal
+"D:\Program Files\vsc2022\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E env FLUTTER_ROOT=D:\Descargas\flutter PROJECT_DIR=C:\Users\fer_p\OneDrive\Desktop\Fernando\Informatica\TrabajoFG\flutter_agenda FLUTTER_ROOT=D:\Descargas\flutter FLUTTER_EPHEMERAL_DIR=C:\Users\fer_p\OneDrive\Desktop\Fernando\Informatica\TrabajoFG\flutter_agenda\windows\flutter\ephemeral PROJECT_DIR=C:\Users\fer_p\OneDrive\Desktop\Fernando\Informatica\TrabajoFG\flutter_agenda FLUTTER_TARGET=C:\Users\fer_p\OneDrive\Desktop\Fernando\Informatica\TrabajoFG\flutter_agenda\lib\Screens\main.dart DART_DEFINES=RkxVVFRFUl9XRUJfQVVUT19ERVRFQ1Q9dHJ1ZQ==,RkxVVFRFUl9XRUJfQ0FOVkFTS0lUX1VSTD1odHRwczovL3d3dy5nc3RhdGljLmNvbS9mbHV0dGVyLWNhbnZhc2tpdC9hNzk0Y2YyNjgxYzZjOWZlN2IyNjBlMGU4NGRlOTYyOThkYzljMThiLw== DART_OBFUSCATION=false TRACK_WIDGET_CREATION=true TREE_SHAKE_ICONS=false PACKAGE_CONFIG=C:\Users\fer_p\OneDrive\Desktop\Fernando\Informatica\TrabajoFG\flutter_agenda\.dart_tool\package_config.json D:/Descargas/flutter/packages/flutter_tools/bin/tool_backend.bat windows-x64 Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\FER_P\ONEDRIVE\DESKTOP\FERNANDO\INFORMATICA\TRABAJOFG\FLUTTER_AGENDA\BUILD\WINDOWS\CMAKEFILES\885F9749DB055950DCBF35FDBBB7B231\FLUTTER_ASSEMBLE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\FER_P\ONEDRIVE\DESKTOP\FERNANDO\INFORMATICA\TRABAJOFG\FLUTTER_AGENDA\WINDOWS\FLUTTER\CMAKELISTS.TXT
+setlocal
+"D:\Program Files\vsc2022\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/fer_p/OneDrive/Desktop/Fernando/Informatica/TrabajoFG/flutter_agenda/windows -BC:/Users/fer_p/OneDrive/Desktop/Fernando/Informatica/TrabajoFG/flutter_agenda/build/windows --check-stamp-file C:/Users/fer_p/OneDrive/Desktop/Fernando/Informatica/TrabajoFG/flutter_agenda/build/windows/flutter/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

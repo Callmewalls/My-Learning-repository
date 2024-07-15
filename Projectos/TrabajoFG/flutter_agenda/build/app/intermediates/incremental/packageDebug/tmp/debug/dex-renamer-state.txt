@@ -1,0 +1,4 @@
+#Sun Mar 03 18:31:20 CET 2024
+base.0=C\:\\Users\\fer_p\\OneDrive\\Desktop\\Fernando\\Informatica\\TrabajoFG\\flutter_agenda\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

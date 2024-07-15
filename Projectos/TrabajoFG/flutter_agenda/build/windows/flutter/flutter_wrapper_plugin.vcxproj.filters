@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\fer_p\OneDrive\Desktop\Fernando\Informatica\TrabajoFG\flutter_agenda\windows\flutter\ephemeral\cpp_client_wrapper\core_implementations.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\fer_p\OneDrive\Desktop\Fernando\Informatica\TrabajoFG\flutter_agenda\windows\flutter\ephemeral\cpp_client_wrapper\standard_codec.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\fer_p\OneDrive\Desktop\Fernando\Informatica\TrabajoFG\flutter_agenda\windows\flutter\ephemeral\cpp_client_wrapper\plugin_registrar.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\fer_p\OneDrive\Desktop\Fernando\Informatica\TrabajoFG\flutter_agenda\windows\flutter\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{780A5780-BE28-35A5-BDF3-16F85300C658}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{35B7AD3A-23DF-324B-AA89-0C9FD970DCD7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
